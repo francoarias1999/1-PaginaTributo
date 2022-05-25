@@ -1,0 +1,80 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    background-color:white;
+    overflow:auto;} /*QUISE CAMBIAR A BLACK PERO ME QUEDAN FRANJAS BLANCAS*/
+    
+ 
+ .imagen-AgroFC {width: 100px;
+                 height:100px;}
+ 
+ .estilo-img {text-align: center;}
+ 
+ 
+ 
+ .intro {
+   display: block;
+   font-size: 25px;
+   overflow: auto;
+  }
+ 
+ .titulo {
+          margin: 0px;
+          padding: 10px;
+          font-size: 45px;
+          text-align: center; 
+          background-color:white;
+          font-weight: 10000;
+          box-sizing: border-box;
+          border:10px solid black;
+          box-shadow: 20px blue;
+          text-shadow: 20px blue;
+         }
+
+.cuerpo {background-color: black;}         
+
+
+.li-footer-ig >a  {color:black;} 
+.li-footer-fb >a  {color:black;}  
+.li-footer-ig     {display: inline; margin:5px;} 
+.li-footer-fb     {display: inline; margin:5px;}  
+
+
+.ul-footer {
+  text-align:center;
+  margin-left:5px;} 
+
+
+.footer {margin:0px;  text-align:left; padding:0%;}        
+
+
+.li-footer-ig:hover > a{color:violet;}
+.li-footer-fb:hover > a{color:blue;}
+.li-footer-ig:hover > i{color:violet;}
+.li-footer-fb:hover > i{color:blue;}
+
+@media only screen and (max-width:500px)
+{.footer {display:none;}
+ .footer-responsive{display:block;}
+}
+
+/* Aca arranca la version responsive del footer, Solo hice del footer a modo de practica*/ 
+
+.ul-footer--responsive {display: block;
+                        position: absolute;
+                        width:100%;
+                        background: Blue;
+                        height:100%;}
+
+.li-footer-responsive {width:100%;}
+
+.li-footer-responsive i {box-sizing:border-box;
+text-align: center;
+margin-right: 5px;
+width:30px;
+color:orange;}
+
+.footer-responsive{display:none;}
+
+.button-responsive-footer { float:right;
+font-size:25px;
+padding:6px 20px;}
